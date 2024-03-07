@@ -20,17 +20,26 @@
             </nav>
         </header>
         <div class="container-fluid" id="slider">
-            <!--SLIDER IZ JS-A-->
+            <!--JS-Slider-->
         </div>
         <!--content1-->
                 
         <div class="container-fluid" id="content1">
             
-            <div class="row h-100 justify-content-center align-items-center bg-light" id="shopAdvertisement">
-                <div class="col-3"><h3 class="lightBlueColor">Check out our latest offers!</p></div>
-                <div class="col-3"><img class="img-fluid" src="assets/img/chainsawman1.jpg" alt="chainsawman"></div>
-                <div class="col-3"><a href="store.html"><input type="button" class="btn" id="btnShop" value="View All"></a></div>
+            <div class="row h-100 d-flex flex-wrap justify-content-center align-items-center bg-light" id="shopAdvertisement">
+                <div class="col-3">
+                  <h1 class="lightBlueColor text-center">Check out our latest offers!</h1><a href="store.html">
+                    <br/>
+                    <input type="button" class="btn" id="btnShop" value="View All"></a>
+                </div>
+                <div class="col-1"></div>
+                <div class="col-2">
+                  <h1 class="redTextColor text-center">Upcoming releases:</h1>
+                </div>
+                <div class="col-lg-2 col-sm-4"><img  src="assets/img/firepunch1.jpg" alt="firepunch"></div>
+                <div class="col-lg-2 col-sm-4"><img class="img-fluid" src="assets/img/solanin1.jpg" alt="solanin"></div>
             </div>
+
             <div class="row mt-3 p-5" id="aboutBlok">
                 <div class="col-1"></div>
                 <div class="col-12 col-lg-4 text-left">
@@ -42,7 +51,7 @@
                 </div>
                 <div class="col-lg-2"></div>
                 <div class="col-12 col-lg-4 text-left" id="specializationBlok">
-                    <h3 class="redTextColor display-4">why buy from us?</h3>
+                    <h3 class="redTextColor display-4">check us out!</h3>
                     <hr class="visinaZaHr lightBlueBgColor">
                     <p class="mb-4">Immerse yourself in a seamless browsing experience designed to help you find your next favorite series effortlessly.</p>
                     <hr class="visinaZaHr lightBlueBgColor">
@@ -52,7 +61,69 @@
                 </div>
                 <div class="col-1"></div>
             </div>
-
+            <!--content2-->
+        </div>
+        <div class="container-fluid mb-5" id="content2">
+            <div class="row justify-content-md-center">
+                <div class="col-md-auto">
+                    <h3 class="redTextColor display-6">Featured authors:</h3>
+                </div>
+            </div>
+            <!--Author cards-->
+            <div class="row justify-content-md-center text-center mt-5">
+                <div class="col-md-3">
+                    <div class="card author-card">
+                      <img src="assets/img/author1.jpg" class="card-img-top author-img" alt="Inio Asano">
+                      <div class="card-body">
+                        <h5 class="card-title mb-2 redTextColor">Inio Asano</h5>
+                        <hr class="lightBlueBgColor">
+                        <br/>
+                        <p class="card-text">Known for creating character-driven, realist stories, ranging from slice of life to psychological horror.</p>
+                        <p class="card-text">His most known series:</p>
+                        <ul class="p-0">
+                            <li><strong>Goodnight Punpun</strong></li>
+                            <li><strong>A Girl on the Shore</strong></li>
+                            <li><strong>Solanin</strong></li>
+                        </ul>
+                        <a href="https://en.wikipedia.org/wiki/Inio_Asano" target="_blank"class="btn btn-primary mt-auto">Learn More</a>
+                      </div>
+                    </div>
+                </div>
+                  <div class="col-md-3">
+                    <div class="card author-card">
+                      <img src="assets/img/author2.jpg" class="card-img-top author-img" alt="Shin-ichi Sakamoto">
+                      <div class="card-body">
+                        <h5 class="card-title mb-2 redTextColor">Shin-ichi Sakamoto</h5>
+                        <hr class="lightBlueBgColor">
+                        <p class="card-text">Shin-ichi Sakamoto was born in Osaka Prefecture in 1972 as the middle child of three brothers. He loved drawing and even won some contests as a child.</p>
+                        <p class="card-text">His most known series:</p>
+                        <ul class="p-0">
+                            <li><strong>The Climber</strong></li>
+                            <li><strong>Innocent</strong></li>
+                            <li><strong>#DRCL midnight children</strong></li>
+                        </ul>
+                        <a href="https://en.wikipedia.org/wiki/Shin-ichi_Sakamoto" target="_blank" class="btn btn-primary mt-auto">Learn More</a>
+                      </div>
+                    </div>
+                </div>
+                  <div class="col-md-3">
+                    <div class="card author-card">
+                      <img src="assets/img/author3.jpg" class="card-img-top author-img" alt="Muneyuki Kaneshiro">
+                      <div class="card-body">
+                        <h5 class="card-title mb-2 redTextColor">Muneyuki Kaneshiro</h5>
+                        <hr class="lightBlueBgColor">
+                        <p class="card-text">Muneyuki Kaneshiro is a Japanese manga writer. After serializing several works, he launched Blue Lock, which won the 45th Kodansha Manga Award in the shonen category. </p>
+                        <p class="card-text">His most known series:</p>
+                        <ul class="p-0">
+                            <li><strong>Bokutachi ga Yarimashita</strong></li>
+                            <li><strong>Jagaaan</strong></li>
+                            <li><strong>Blue Lock</strong></li>
+                        </ul>
+                        <a href="https://en.wikipedia.org/wiki/Muneyuki_Kaneshiro" target="_blank" class="btn btn-primary mt-auto">Learn More</a>
+                      </div>
+                    </div>
+                  </div>
+              </div>
         </div>
         <!--FOOTER-->
         <footer class="bg-light">

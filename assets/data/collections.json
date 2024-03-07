@@ -1,0 +1,45 @@
+[
+    {
+        "id":"1",
+        "name":
+        {
+            "full":"Chainsaw Man"
+        }
+    },
+    {
+        "id":"2",
+        "name":
+        {
+            "full":"The Climber"
+        }
+    },
+    {
+        "id":"3",
+        "name":
+        {
+            "full":"Blue Lock"
+        }
+    },
+    {
+        "id":"4",
+        "name":
+        {
+            "full":"Nana"
+        }
+    },
+    {
+        "id":"5",
+        "name":
+        {
+            "full":"I Am A Hero"
+        }
+    },
+    {
+        "id":"6",
+        "name":
+        {
+            "full":"Goodnight Punpun"
+        }
+    }
+
+]

@@ -1,0 +1,287 @@
+@import url("https://fonts.googleapis.com/css2?family=Ramabhadra&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  scroll-behavior: smooth; }
+
+body {
+  font-family: "Ramabhadra", sans-serif;
+}
+
+a {
+  text-decoration: none; }
+
+.visinaZaHr {
+    padding-top: 0.5vw; }
+  
+.lightGrayText {
+    color: #8f8f8f; }
+.GrayText{color: #5c5c5c}
+  
+.orangeTextColor {
+    color: #fbad6b; }
+  
+.blueBgColor {
+    background: linear-gradient(90deg, #498c9f 0%, #8cb7c3 50%, #b2cfd7 76%, #c7dce2 100%, #d8e7eb 100%, white 100%); }
+  
+.blueTextColor {
+    color: #3f47cc; }
+
+.redTextColor{
+    color: #bb3030;
+}
+
+.lightBlueBgColor {
+  background: linear-gradient(90deg, #068992 0%, #40a0a7 50%, #89c6ca 100%, #b2d3d6 100%, rgb(255, 226, 188) 100%); }
+.lightBlueColor{color: #068992;}
+  
+#shopAdvertisement img{
+    height: 20vw;
+    margin: auto;
+    display: block;
+    padding: 1vw 0;
+}
+#shopAdvertisement .btn{
+  height: 100%;
+  background-color:#40a0a7 ;
+  color: #fff;
+}
+.author-card {
+  margin: 0px 10px;
+}
+
+.author-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+ul li{
+  text-decoration: none;
+  list-style-type: none;
+}
+.card img{
+  padding:0.5vw;
+}
+.card-body{display: flex; flex-direction: column;}
+.card button{
+  background-color: #498c9f;
+  color:#fff;
+  width:100%;
+}
+#content2 a{
+  background-color:#40a0a7;
+  border-color: #177d85;
+}
+i {
+    font-size: 2vw;
+    cursor: pointer;
+    width: 4%;
+    transition: 0.4s; }
+    i:hover {
+      text-shadow: 0px 0px 6px black; }
+      footer a {
+        color: #498c9f; }
+        footer a:hover {
+          color: #c06d6d;
+          text-decoration: none; }
+      footer i:hover {
+        text-shadow: 0px 0px 0px black; }
+      footer #backToTop {
+        font-size: 2vw; }
+      footer i{
+          margin: 0 20px;
+      }
+    #aboutBlok p {
+      font-size: 1.1vw; }
+    #aboutBlok #btnPrikaziVise {
+      font-size: 1vw;
+      padding: 10px; }
+    #aboutBlok #specializationBlok p {
+      font-size: 1.1vw; }
+#slider {
+  background-image: url(../img/banner-01.jpg);
+  transition: background-image 1s ease;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 35vh; }
+#slider #modalBoxContact {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 4%;
+    height: 8%;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 50%; }
+#slider #modalBoxContact i:hover {
+      text-shadow: 0px 0px 10px #fbad6b; }
+#slider img{
+  opacity: 50%;
+}
+.imgs{
+  margin: 0px;
+}
+
+.btn{
+    width: 100%;
+}
+.btn button{
+    border-radius: 5px;
+    border: none;
+    letter-spacing: bold;
+    margin-top: 6px;
+    cursor:pointer;
+}
+.card{
+    box-shadow: 0px 1px 4px #000;
+    transition: transform 0.5s;
+}
+.card:hover{
+    transform: translateY(-15px);
+}
+
+#btnPrikaziViseAutor{
+  background-color:#068992 ;
+  color: #fff;
+  width: 30vw;
+}
+
+.background{
+  background: rgba(0, 0, 0, .60) url('../img/background2.jpg');
+  background-blend-mode: darken;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+}
+.background1{
+  background: rgba(0, 0, 0, .60) url('../img/background1.jpg');
+  background-blend-mode: darken;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+.backgroundwhite{background-color: white; border-radius: 1vw;}
+
+#collections{height: 750px;}
+
+/* stil za contact formu*/
+ #modalBoxForm i {
+    color: white; }
+    #modalBoxForm i:hover {
+      color: #c24b4b; }
+#modalBoxForm{
+    background: linear-gradient(90deg, #498c9f 0%, #8cb7c3 50%, #b2cfd7 76%, #c7dce2 100%, #d8e7eb 100%, white 100%); }
+
+
+form .formElements {
+  margin-top: 10px;
+  margin-bottom: 10px; }
+form .textUpozorenje {
+  text-align: left;
+  color: red; }
+form input{
+  margin:0 1vw;
+}
+form input[type="text"], form input[type="email"] {
+  background: transparent;
+  border-bottom: 3px solid white;
+  font-size: 1.3vw;
+  margin-bottom: 5%;
+  padding: 3%;
+  color: white;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px; }
+form ::placeholder {
+  color: white;
+  opacity: 0.5; }
+form input[type="text"]:focus {
+  outline: none;
+  border-bottom: 3px solid #c24b4b;
+  transition: 0.5s; }
+form input[type="email"]:focus {
+  outline: none;
+  border-bottom: 3px solid #c24b4b;
+  transition: 0.5s; }
+form select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-size: 1.3vw;
+  width: 150px;
+  background: transparent;
+  color: white;
+  border: 3px solid #fff;
+  padding: 3%;
+  margin: 0 1vw;
+  background-image: url("../img/arrowdownedit.png");
+  background-repeat: no-repeat;
+  background-position: 98% center;
+  cursor: pointer; }
+form select:focus {
+  outline: none;
+  border: 3px solid #c24b4b;
+  transition: 0.5s; }
+  form select:focus option {
+    background-color: #8f8f8f; }
+form input[type="radio"] {
+  width: 20px;
+  height: 20px; }
+form label {
+  font-size: 1.1vw; }
+form .btn-outline-secondary {
+  color: white !important;
+  border: 4px solid white !important;
+  font-size: 1.3vw;
+  border-radius: 0 !important; }
+  form .btn-outline-secondary:hover {
+    background-color: #c24b4b; }
+form .borderUpozorenje {
+  border-bottom: 3px solid red; }
+form .hideError {
+  display: none; }
+form .showError {
+  display: block;
+  color: red;
+  margin-left: 5px;
+  font-size: 1vw; }
+#products .col-md-3{
+  padding: 0.6vw;
+}
+#products .col-sm-6{
+  padding: 1vw;
+}
+.card{
+  height: 100%;
+}
+#search{
+  background-color: #eee;
+  color:#000;
+  border-radius: 15px;
+  width: 50vw;
+  height: 40px;
+  margin:0 auto;
+}
+#greskaShop{
+  text-align: center;
+  color: red;
+  margin-top: 6vw;
+}
+#broj-proizvoda{
+  color:#bb3030;
+}
+.image-cart{
+  height: 90px;
+}
+table .btn{
+  width: 100%;
+    height: 100%;
+    background-color:#498c9f ;
+    color: #fff;
+}

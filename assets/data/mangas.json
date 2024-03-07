@@ -1,0 +1,243 @@
+[
+     {
+        "id": 1,
+        "image": "assets/img/chainsawman1.jpg",
+        "name": "Chainsaw Man Volume 1",
+        "price":
+        {
+          "new":"8.99",
+          "old":"11.99"
+        },
+        "collectionId":"1",
+        "type":"shonen"
+      },
+      {
+        "id": 2,
+        "image": "assets/img/bluelock1.jpg",
+        "name": "Blue Lock Volume 1",
+        "price":
+        {
+          "new":"13.99",
+          "old":null
+        },
+        "collectionId":"3",
+        "type":"shonen"
+      },
+      {
+        "id": 3,
+        "image": "assets/img/theclimber1.jpg",
+        "name": "The Climber Volume 1",
+        "price":
+        {
+          "new":"12.99",
+          "old":null
+        },
+        "collectionId":"2",
+        "rarity":"secret",
+        "type":"seinen"
+      },
+      {
+        "id": 4,
+        "image": "assets/img/bluelock2.jpg",
+        "name": "Blue Lock Volume 2",
+        "price":
+        {
+          "new":"13.99",
+          "old":null
+        },
+        "collectionId":"3",
+        "type":"shonen"
+      },
+      {
+        "id": 5,
+        "image": "assets/img/punpun1.jpg",
+        "name": "Goodnight Punpun Volume 1",
+        "price":
+        {
+          "new":"9.99",
+          "old":"13.99"
+        },
+        "collectionId":"6",
+        "type":"seinen"
+      },
+      {
+        "id": 6,
+        "image": "assets/img/theclimber2.jpg",
+        "name": "The Climber Volume 2",
+        "price":
+        {
+          "new":"12.99",
+          "old":null
+        },
+        "collectionId":"2",
+        "type":"seinen"
+      },
+      {
+        "id": 7,
+        "image": "assets/img/nana1.jpg",
+        "name": "Nana Volume 1",
+        "price":
+        {
+          "new":"11.99",
+          "old":"15.99"
+        },
+        "collectionId":"4",
+        "type":"shoujo"
+      },
+      {
+        "id": 8,
+        "image": "assets/img/punpun2.jpg",
+        "name": "Goodnight Punpun Volume 2",
+        "price":
+        {
+          "new":"9.99",
+          "old":"13.99"
+        },
+        "collectionId":"6",
+        "type":"seinen"
+      },
+      {
+        "id": 9,
+        "image": "assets/img/nana2.jpg",
+        "name": "Nana Volume 2",
+        "price":
+        {
+          "new":"11.99",
+          "old":"15.99"
+        },
+        "collectionId":"4",
+        "type":"shoujo"
+      },
+      {
+        "id": 10,
+        "image": "assets/img/bluelock3.jpg",
+        "name": "Blue Lock Volume 3",
+        "price":
+        {
+          "new":"13.99",
+          "old":null
+        },
+        "collectionId":"3",
+        "type":"shonen"
+      },
+      {
+        "id": 11,
+        "image": "assets/img/theclimber3.jpg",
+        "name": "The Climber Volume 3",
+        "price":
+        {
+          "new":"12.99",
+          "old":null
+        },
+        "collectionId":"2",
+        "type":"seinen"
+      },
+      {
+        "id": 12,
+        "image": "assets/img/punpun3.jpg",
+        "name": "Goodnight Punpun Volume 3",
+        "price":
+        {
+          "new":"9.99",
+          "old":"13.99"
+        },
+        "collectionId":"6",
+        "type":"seinen"
+      },
+      {
+        "id": 13,
+        "image": "assets/img/iamahero1.jpg",
+        "name": "I Am A Hero Volume 1",
+        "price":
+        {
+          "new":"12.99",
+          "old":"14.99"
+        },
+        "collectionId":"5",
+        "type":"seinen"
+      },
+      {
+        "id": 14,
+        "image": "assets/img/iamahero2.jpg",
+        "name": "I Am A Hero Volume 2",
+        "price":
+        {
+          "new":"12.99",
+          "old":"14.99"
+        },
+        "collectionId":"5",
+        "type":"seinen"
+      },
+      {
+        "id": 15,
+        "image": "assets/img/nana3.jpg",
+        "name": "Nana Volume 3",
+        "price":
+        {
+          "new":"11.99",
+          "old":"15.99"
+        },
+        "collectionId":"4",
+        "type":"shoujo"
+      },
+      {
+        "id": 16,
+        "image": "assets/img/bluelock4.jpg",
+        "name": "Blue Lock Volume 4",
+        "price":
+        {
+          "new":"13.99",
+          "old":null
+        },
+        "collectionId":"3",
+        "type":"shonen"
+      },
+      {
+        "id": 17,
+        "image": "assets/img/iamahero3.jpg",
+        "name": "I Am A Hero Volume 3",
+        "price":
+        {
+          "new":"12.99",
+          "old":"14.99"
+        },
+        "collectionId":"5",
+        "type":"seinen"
+      },
+      {
+        "id": 18,
+        "image": "assets/img/nana4.jpg",
+        "name": "Nana Volume 4",
+        "price":
+        {
+          "new":"11.99",
+          "old":"15.99"
+        },
+        "collectionId":"4",
+        "type":"shoujo"
+      },
+      {
+        "id": 19,
+        "image": "assets/img/iamahero4.jpg",
+        "name": "I Am A Hero Volume 4",
+        "price":
+        {
+          "new":"12.99",
+          "old":"14.99"
+        },
+        "collectionId":"5",
+        "type":"seinen"
+      },
+      {
+        "id": 20,
+        "image": "assets/img/punpun4.jpg",
+        "name": "Goodnight Punpun Volume 4",
+        "price":
+        {
+          "new":"9.99",
+          "old":"13.99"
+        },
+        "collectionId":"6",
+        "type":"seinen"
+      }
+]
