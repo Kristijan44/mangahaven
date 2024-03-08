@@ -94,12 +94,10 @@ i {
           margin: 0 20px;
       }
     #aboutBlok p {
-      font-size: 1.1vw; }
+      font-size: 1.1vw;}
     #aboutBlok #btnPrikaziVise {
       font-size: 1vw;
       padding: 10px; }
-    #aboutBlok #specializationBlok p {
-      font-size: 1.1vw; }
 #slider {
   background-image: url(../img/banner-01.jpg);
   transition: background-image 1s ease;

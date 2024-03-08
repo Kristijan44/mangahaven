@@ -49,10 +49,10 @@
         font-size: 2vw;
     }
 
-    #aboutBlok #specializationBlok i{
+    #aboutBlok i{
         font-size: 4vw;
     }
-    #aboutBlok #specializationBlok p{
+    #aboutBlok p{
         font-size: 2.4vw;
     }
 
@@ -130,11 +130,11 @@
     form input[type="email"]::placeholder{
         font-size: 3.3vw;
     }
-    #aboutBlok #specializationBlok i{
+    #aboutBlok i{
         font-size: 10vw;
     }
-    #aboutBlok #specializationBlok p{
-        font-size: 4.5vw;
+    #aboutBlok p{
+        font-size: 3.5vw;
     }
 
     #aboutBlok #btnPrikaziVise{
@@ -195,11 +195,11 @@
     #content1 h2{
         font-size: 14vw;
     }
-    #aboutBlok #specializationBlok i{
+    #aboutBlok i{
         font-size: 8.5vw;
     }
-    #aboutBlok #specializationBlok p{
-        font-size: 5vw;
+    #aboutBlok p{
+        font-size: 4vw;
     }
 
     #aboutBlok #btnPrikaziVise{
@@ -225,7 +225,7 @@
 
 @media (max-width: 445.98px){
 
-    #aboutBlok #specializationBlok p{
+    #aboutBlok p{
         font-size: 5vw;
     }
 
@@ -274,10 +274,10 @@
         font-size: 6vw;
       }
     
-    #aboutBlok #specializationBlok i{
+    #aboutBlok i{
         font-size: 15vw;
     }
-    #aboutBlok #specializationBlok p{
+    #aboutBlok p{
         font-size: 5vw;
     }
 

@@ -439,7 +439,7 @@ function mainFunctions() {
 
     //adding text color for p tags
 $(".author-card p").addClass("GrayText");
-$("#specializationBlok p").addClass("lightGrayText");
+$("#aboutBlok p").addClass("lightGrayText");
 
      //SLIDER
 var i = 0;
