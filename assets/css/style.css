@@ -20,9 +20,6 @@ a {
     color: #8f8f8f; }
 .GrayText{color: #5c5c5c}
   
-.orangeTextColor {
-    color: #fbad6b; }
-  
 .blueBgColor {
     background: linear-gradient(90deg, #498c9f 0%, #8cb7c3 50%, #b2cfd7 76%, #c7dce2 100%, #d8e7eb 100%, white 100%); }
   
@@ -170,7 +167,7 @@ i {
 
 #collections{height: 750px;}
 
-/* stil za contact formu*/
+/* Contact form */
  #modalBoxForm i {
     color: white; }
     #modalBoxForm i:hover {

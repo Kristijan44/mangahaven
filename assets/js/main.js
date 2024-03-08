@@ -290,7 +290,6 @@ function contactFunctions() {
         document.getElementById("ddlDay").innerHTML = daniIspis;
     
 //REGULARNI IZRAZI
-
 document.getElementById("submitForme").addEventListener("click",function(){
     //getting values from forms
     var ime =   document.getElementById("firstName").value.trim();
@@ -425,7 +424,7 @@ function getLS(key){
 }
 
 function mainFunctions() {
-     //button Prikazi vise za about
+     //Button for about
   $('#showMoreTextAbout').css("display", "none");
   $('#btnPrikaziVise').click(function (e) {
       e.preventDefault();
@@ -438,7 +437,7 @@ function mainFunctions() {
       }
   });
 
-    //dodavanje boje texta na p tagove
+    //adding text color for p tags
 $(".author-card p").addClass("GrayText");
 $("#specializationBlok p").addClass("lightGrayText");
 
@@ -504,33 +503,31 @@ function storeFunctions() {
     const BASEURL ="assets/data/"
 
 window.onload = function(){
-//ciscenje localstorage za filter po checkboxu
+//clearing localstorage from checkboax
     setLS("kolekcijaLS",null);
     //search 
     document.getElementById("search").addEventListener("input", filterPosts);
     document.getElementById("search").addEventListener("blur", clearSearch);
-//dinamicko ispisivanje navigacije
+//dynamically writing navigation
 ajaxCallBack(BASEURL+"menu.json",function(result){
 header(result);
 });
-//podaci iz collections.json
+//results from collections.json
 ajaxCallBack(BASEURL+"collections.json",function(result){
-    //console.log(result);
     printCollections(result)
 });
-//podaci iz cards.json
-ajaxCallBack(BASEURL+"mangas.json",function(result){
-    //console.log(result);
+//results from mangas.json
+ajaxCallBack(BASEURL+"mangas.json",function(result){;
     setLS("mangeLS",result);
     setLS("svemangeLS",result);
     printMangas(result);
 });
 
-//pozivanje funkcije za ispis footera
+//calling function for writing the footer
 ispisFootera();
 }
 
-//f-ja za ispis kolekcija na shop stranici 
+//function for writing collections on store page
 function printCollections(data){
     let html="<hr/><p>Collections</p>"
     for(kolekcija of data){
@@ -564,7 +561,7 @@ function printCollections(data){
     $("#collections").click(filterByCheck);
     $("#collections").click(sortDdl);
 }
-//funkcija za ispis karata tj. proizvoda 
+//function for writing products
 function printMangas(data){
     let html=""
     for(manga of data){
@@ -596,13 +593,9 @@ function printMangas(data){
             $("#products").html(`<div id="greskaShop"><h1>That kind of product doesn't exist</h1></div>`);
         }
         setLS("mangeLS",data);
-        //console.log(data);
         $('.cartAdd').click(addToCart);
     }
     
-
-//funkcija za ispis footera
-
 //AJAX CallBack
 
 function ajaxCallBack(url,result){
@@ -612,7 +605,6 @@ function ajaxCallBack(url,result){
         dataType: "json",
         success:result,
         error: function (jqXHR, exception) {
-            // console.log(jqXHR);
             var msg = '';
             if (jqXHR.status === 0) {
                 msg = 'Not connect.\n Verify Network.';
@@ -654,7 +646,7 @@ function filterPosts(){
     });
 }
 
-//filtriranje po kategorijama
+// Filtering by collections
 function filterByCollection(e){
     e.preventDefault();
     const idKolekcije=this.dataset.collectionid;
@@ -689,7 +681,7 @@ function filterByCollection(e){
     });
 }
 
-//ciscenje search
+//Clearing search
 function clearSearch(){
     $(this).val("");
 }
@@ -701,7 +693,7 @@ function getLS(key){
     return JSON.parse(localStorage.getItem(key));
 }
 
-//sortiranje po dropdown listi
+//Sorting from dropdown list
 function sortDdl(){ 
     let mange=getLS("mangeLS");
     let stampa;
@@ -776,7 +768,7 @@ else{
 
 
 
-//filtriranje po checkboxevima
+//Filtering from checkboxes
 
 
 function filterByCheck(){
@@ -800,8 +792,6 @@ function filterByCheck(){
     } 
     else {stampa3=[]}
     let stampa=[].concat(stampa1,stampa2,stampa3);
-    //console.log("stampa check");
-    //console.log(stampa);
     if($("#shonen").is(':checked') || $("#seinen").is(':checked') || $("#shoujo").is(':checked')){
         printMangas(stampa);
     }
@@ -809,7 +799,7 @@ function filterByCheck(){
     
 }
 
-//korpa 
+//Cart 
 function addToCart(){
     let idP = $(this).data("id");
     // console.log(idP)
@@ -876,10 +866,6 @@ function printNumberOfProducts(){
         console.log("problem?");
     }
     else{   
-        // quantity=0;
-        // for(let i=0;i<productsCart.length;i++){
-        //     quantity+=productsCart[i].qty;
-        // }
         quantity=productsCart.length;
         let numberOfProducts = quantity;
         let txt = quantity+" ";
